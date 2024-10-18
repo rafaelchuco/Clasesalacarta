@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+    rel="stylesheet"
+    as="style"
+    onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+    <title>ClasesAlaCarta</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#FFFFFF] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+        <div class="layout-container flex h-full grow flex-col">
+            
+            <header class="flex items-center justify-between whitespace-nowrap px-10 py-3 bg-[#5C4033]">
+                <div class="flex items-center gap-4 text-[#FFF7E6]">
+                    <img src="../logo.svg" alt="logo" width="100px">
+                </div>
+                <div class="flex flex-1 justify-end gap-8">
+                    <div class="flex items-center gap-9">
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="cursos.html">cursos</a>
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="simulacro.html">simulacros</a>
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="certificados.html">certificados</a>
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="foros.html">foros</a>
+                    </div>
+                    <div
+                        class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-[#FFF7E6]"
+                        style='background-image: url("https://cdn.usegalileo.ai/stability/d3df9fbc-842c-4644-aeca-d0a7355f373b.png");'
+                    ></div>
+                </div>
+            </header>
+            <h1 class="text-3xl font-bold text-center mt-6 text-[#5C4033]">Nuestros cursos</h1>
+            <div class="px-40 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+                        <!-- Tarjeta 1 -->
+                        <div class="flex flex-col gap-3 pb-3">
+                            <div
+                              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                              style='background-image: url("https://us.123rf.com/450wm/belchonoksun/belchonoksun1511/belchonoksun151100077/48362809-vector-sin-fisuras-textura-matem%C3%A1tica-sin-fin-con-las-matem%C3%A1ticas-y-f%C3%ADsicas-figuras-diagramas-y.jpg?ver=6");'
+                            ></div>
+                            <div>
+                                <p class="text-[#1C160C] text-base font-medium leading-normal">Matemáticas</p>
+                                <p class="text-[#A18249] text-sm font-normal leading-normal">Los números son los ingredientes y las operaciones matemáticas son las recetas</p>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 2 -->
+                        <div class="flex flex-col gap-3 pb-3">
+                            <div
+                              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                              style='background-image: url("https://img.freepik.com/vector-gratis/fondo-educacion-cientifica-vintage_23-2148492740.jpg");'
+                            ></div>
+                            <div>
+                                <p class="text-[#1C160C] text-base font-medium leading-normal">Física</p>
+                                <p class="text-[#A18249] text-sm font-normal leading-normal">
+                                    La gravedad es como la salsa que siempre cae al fondo del plato</p>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 3 -->
+                        <div class="flex flex-col gap-3 pb-3">
+                            <div
+                              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                              style='background-image: url("data:image/jpeg;base64,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");'
+                            ></div>
+                            <div>
+                                <p class="text-[#1C160C] text-base font-medium leading-normal">Química</p>
+                                <p class="text-[#A18249] text-sm font-normal leading-normal">Los átomos son como los ingredientes básicos que componen cada plato</p>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 4 -->
+                        <div class="flex flex-col gap-3 pb-3">
+                            <div
+                              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                              style='background-image: url("https://img.freepik.com/vector-gratis/garabatos-ciencia-biologia_23-2147501586.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1720828800&semt=ais_user");'
+                            ></div>
+                            <div>
+                                <p class="text-[#1C160C] text-base font-medium leading-normal">Biología</p>
+                                <p class="text-[#A18249] text-sm font-normal leading-normal">La evolución es como ajustar la receta con el tiempo para que se vuelva más eficiente</p>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 5 -->
+                        <div class="flex flex-col gap-3 pb-3">
+                            <div
+                              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                              style='background-image: url("https://st3.depositphotos.com/1011127/13790/v/450/depositphotos_137907228-stock-illustration-school-and-learning-composition.jpg");'
+                            ></div>
+                            <div>
+                                <p class="text-[#1C160C] text-base font-medium leading-normal">Literatura</p>
+                                <p class="text-[#A18249] text-sm font-normal leading-normal">Los personajes son como los sabores que dan vida a cada plato
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 6 -->
+                        <div class="flex flex-col gap-3 pb-3">
+                            <div
+                              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                              style='background-image: url("https://mir-s3-cdn-cf.behance.net/projects/404/8a680c31677367.Y3JvcCw2MDAsNDY4LDAsOTI.jpg");'
+                            ></div>
+                            <div>
+                                <p class="text-[#1C160C] text-base font-medium leading-normal">Lenguaje</p>
+                                <p class="text-[#A18249] text-sm font-normal leading-normal">El vocabulario es como la despensa, llena de opciones para enriquecer nuestras frases</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

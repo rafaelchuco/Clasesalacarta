@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+    rel="stylesheet"
+    as="style"
+    onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+    <title>ClasesAlaCarta</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#FFFFFF] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+        <div class="layout-container flex h-full grow flex-col">
+            <header class="flex items-center justify-between whitespace-nowrap px-10 py-3 bg-[#5C4033]">
+                <div class="flex items-center gap-4 text-[#FFF7E6]">
+                    <img src="../logo.svg" alt="logo" width="100px">
+                </div>
+                <div class="flex flex-1 justify-end gap-8">
+                    <div class="flex items-center gap-9">
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="cursos.html">cursos</a>
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="simulacro.html">simulacros</a>
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="certificados.html">certificados</a>
+                        <a class="text-[#FFF7E6] text-sm font-medium leading-normal" href="foros.html">foros</a>
+                    </div>
+                    <div
+                        class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-[#FFF7E6]"
+                        style='background-image: url("https://cdn.usegalileo.ai/stability/d3df9fbc-842c-4644-aeca-d0a7355f373b.png");'
+                    ></div>
+                </div>
+            </header>
+
+            <!-- Título "Foros" -->
+            <h1 class="text-3xl font-bold text-center mt-6 text-[#5C4033]">Foros</h1>
+
+            <!-- Sección de foros con tarjetas de texto -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center mt-10 px-8">
+                <!-- Cada tarjeta de foro -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full">
+                    <h2 class="text-2xl font-bold text-[#5C4033]">Foro: Desarrollo Personal</h2>
+                    <p class="mt-4 text-base text-gray-600">Únete a la conversación sobre cómo mejorar tu autoestima, asumir responsabilidades y practicar valores que promuevan la buena convivencia.</p>
+                    <button class="mt-6 bg-[#5C4033] text-white px-4 py-2 rounded-lg hover:bg-[#4a3428] transition-colors duration-200">
+                        Unirse al foro
+                    </button>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full">
+                    <h2 class="text-2xl font-bold text-[#5C4033]">Foro: Educación y Tecnología</h2>
+                    <p class="mt-4 text-base text-gray-600">Discute cómo las nuevas tecnologías están impactando la educación y cómo podemos adaptarnos a los cambios en el aprendizaje.</p>
+                    <button class="mt-6 bg-[#5C4033] text-white px-4 py-2 rounded-lg hover:bg-[#4a3428] transition-colors duration-200">
+                        Unirse al foro
+                    </button>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full">
+                    <h2 class="text-2xl font-bold text-[#5C4033]">Foro: Planificación Financiera</h2>
+                    <p class="mt-4 text-base text-gray-600">Comparte estrategias y experiencias sobre la gestión de finanzas personales y empresariales para alcanzar tus metas.</p>
+                    <button class="mt-6 bg-[#5C4033] text-white px-4 py-2 rounded-lg hover:bg-[#4a3428] transition-colors duration-200">
+                        Unirse al foro
+                    </button>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full">
+                    <h2 class="text-2xl font-bold text-[#5C4033]">Foro: Innovación y Emprendimiento</h2>
+                    <p class="mt-4 text-base text-gray-600">Explora cómo crear y desarrollar ideas innovadoras para nuevos negocios, con un enfoque en la tecnología y la sostenibilidad.</p>
+                    <button class="mt-6 bg-[#5C4033] text-white px-4 py-2 rounded-lg hover:bg-[#4a3428] transition-colors duration-200">
+                        Unirse al foro
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
