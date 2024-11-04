@@ -15,7 +15,10 @@ body {
     background-color: #5e3928;
     padding: 20px;
 }
-
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -260,4 +263,12 @@ body {
 
 .social-media a:hover {
     color: #f5e1d7;
+}
+.cle3 {
+    text-align: center;
+    align-content: center;
+}
+.testimonial {
+    border-radius: 20px;
+    align-items: center;
 }
